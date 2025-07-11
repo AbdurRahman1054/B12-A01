@@ -134,3 +134,71 @@ nav ul {
   font-weight: 400;
   text-align: center;
 }
+.user {
+  width: 1140px;
+  text-align: center;
+  margin: 137px auto;
+}
+.cart-flex {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+  /* line-height: 15px; */
+}
+.card-1 {
+  width: 366px;
+  height: 250px;
+  box-sizing: border-box;
+  border: 1px solid rgb(242, 237, 237);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 24px;
+  text-align: left;
+  line-height: 20px;
+}
+.user-heading {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+.card-title {
+  /* Heading */
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+.card-description {
+  /* Body Base */
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.card-rivew {
+  /* Body Strong */
+  color: rgb(117, 117, 117);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  /* margin-bottom: 10px; */
+}
+.rivew {
+  display: flex;
+  /* width: 40px; */
+  align-items: center;
+  gap: 12px;
+  /* margin-bottom: 200px; */
+  margin-top: -20px;
+}
+.rivew-image {
+  border-radius: 50%;
+}
+.color-y {
+  color: #ffd700;
+}
