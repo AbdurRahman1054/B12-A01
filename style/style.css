@@ -21,7 +21,10 @@
   font-weight: 700;
   background: rgb(78, 71, 255);
 }
-
+body {
+  /* background-color: #f5f8ff; */
+  background: rgb(245, 248, 255);
+}
 nav {
   width: 1140px;
   /* text-align: center; */
@@ -71,4 +74,37 @@ nav ul {
 }
 .hero-content {
   text-align: center;
+}
+/* Main PART */
+.seeit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
+}
+.seeit-img {
+  width: 403px;
+  border-radius: 48px;
+}
+.see-it-heading {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+}
+.see-it-description {
+  color: rgba(37, 36, 50, 0.5);
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+.productive {
+  width: 1140px;
+  /* margin: 116px auto 137px auto; */
+  text-align: center;
+}
+.productive-flex {
+  display: flex;
+  justify-content: center;
+  gap: 163px;
 }
